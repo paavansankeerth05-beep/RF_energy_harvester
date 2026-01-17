@@ -1,0 +1,28 @@
+
+ 🛠 Circuit Design & Components
+ The system consists of three primary stages: the Antenna, the Impedance Matching Network, and the Rectifier/Storage stage.
+
+1. Antenna & Matching Network
+Antenna: 6 cm Monopole.
+
+L1 (Inductor): 4.7nH (used for resonance tuning).
+
+C1 (Capacitor): 1pF.
+
+C2 (Capacitor): 22pF.
+
+2. Rectification Stage
+D1, D2 (Diodes): 1N34A Germanium Diodes (Critical for high-frequency performance).
+
+C3 (Capacitor): 2.2p F.
+
+C4 (Capacitor): 10nF.
+
+3. Output & Storage
+D3 (Diode): 1N5819 Schottky Diode.
+
+C5 (Storage): Electrolytic capacitor used to smooth the pulsating DC and store energy.
+
+🔧 Hardware Implementation
+The prototype was assembled on a copper-clad board using a "dead-bug" or point-to-point soldering technique to reduce parasitic capacitance, which is vital for high-frequency 2.4 GHz operation.
+
